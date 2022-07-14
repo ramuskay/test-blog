@@ -7,6 +7,7 @@ import PostTags from '../components/PostTags'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import { formatDate, editOnGithub } from '../utils/global'
+import Comments from '../components/Comments'
 
 export default class PostTemplate extends Component {
   render() {
@@ -57,10 +58,19 @@ export default class PostTemplate extends Component {
             </div>
           </header>
           <div className="post" dangerouslySetInnerHTML={{ __html: postNode.html }} />
+          <Comments/>
+
         </article>
+        
       </Layout>
+       
     )
+
+         
   }
+
+
+
 }
 
 export const pageQuery = graphql`

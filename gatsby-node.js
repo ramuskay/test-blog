@@ -61,7 +61,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     } else {
       slug = `/${parsedFilePath.dir}/`
     }
-
     if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
       if (Object.prototype.hasOwnProperty.call(node, 'fileAbsolutePath'))
         slug = `/${node.fileAbsolutePath.split('/').slice(-2)[0].substr(11)}/`
