@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaCamera, FaGithub, FaTwitter } from 'react-icons/fa';
 import { BsMoon } from 'react-icons/bs'
 import { IoMdSunny } from 'react-icons/io'
 import avatar from '../../static/avatar.png'
