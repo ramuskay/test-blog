@@ -174,7 +174,7 @@ module.exports = {
             }
           `,
             output: config.siteRss,
-            title: 'Calvin Bui - RSS Feed',
+            title: 'Beerus Inc. - RSS Feed',
           },
         ],
       },

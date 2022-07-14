@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaCamera, FaGithub, FaTwitter } from 'react-icons/fa';
 import { BsMoon } from 'react-icons/bs'
 import { IoMdSunny } from 'react-icons/io'
 import avatar from '../../static/avatar.png'
@@ -42,7 +42,7 @@ export default class Navigation extends Component {
           <div className="brand">
             <Link to="/">
               <img src={avatar} className="favicon" alt="Avatar" />
-              <span className="text">Calvin Bui</span>
+              <span className="text">Beerus Inc.</span>
             </Link>
           </div>
           <div className="links">
@@ -57,8 +57,8 @@ export default class Navigation extends Component {
               else if (link.type === "external") {
                 if (link.name === "GitHub") {
                   icon = <FaGithub title="GitHub" className="nav-icons github-nav-icon" />
-                } else if (link.name === "LinkedIn") {
-                  icon = <FaLinkedin title="LinkedIn" className="nav-icons linkedin-nav-icon" />
+                } else if (link.name === "Photos") {
+                  icon = <FaCamera  title="Photos" className="nav-icons camera-nav-icon" />
                 } else if (link.name === "Twitter") {
                   icon = <FaTwitter title="Twitter" className="nav-icons twitter-nav-icon" />
                 } else {

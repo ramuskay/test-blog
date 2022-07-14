@@ -1,6 +1,6 @@
-# calvin.me
+# Beerus blog
 
-Calvin's personal website running on Gatsby, React, and Node.js.
+Personal blog website running on Gatsby, React, and Node.js forked from calvin.me.
 
 ## Features
 
@@ -15,8 +15,8 @@ Calvin's personal website running on Gatsby, React, and Node.js.
 
 ### Setup
 ```console
-git clone --single-branch --branch master --depth 1 git@github.com:calvinbui/calvin.me.git
-cd calvin.me
+git clone https://github.com/ramuskay/blog-beerus
+cd blog-beerus
 nvm install "$(cat .nvmrc)"
 nvm use
 npm install -g yarn
@@ -37,11 +37,11 @@ yarn upgrade-interactive --latest
 
 ## Deployment
 
-Currently deployed using GitHub Actions into GitHub Pages.
+Currently deployed using GatsbyCloud
 
 ## Contributing
 
-If you see any typos or formatting errors in a post, or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!
+Si vous voulez participer/corriger des article vous pouvez à tout moment éditer un post et automatiquement submit un PR
 
 ## License
 
