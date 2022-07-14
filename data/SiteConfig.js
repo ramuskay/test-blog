@@ -7,7 +7,7 @@ const config = {
   repo: 'https://github.com/ramuskay/blog-beerus',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
-  dateFormat: 'Do MMM, YYYY',
+  dateFormat: 'DD MMMM, YYYY',
   siteDescription:
     'Le blog d\'un passionné de sysadmin et de Devops !',
   siteRss: '/rss.xml',
@@ -29,7 +29,7 @@ const config = {
       mobile: true,
     },
     {
-      name: 'Photo',
+      name: 'Photos',
       link: 'https://photos.beerus.fr',
       type: 'external',
       mobile: true,
