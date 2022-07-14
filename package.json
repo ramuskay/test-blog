@@ -1,9 +1,9 @@
 {
-  "name": "calvin.me",
+  "name": "blog.beerus.fr",
   "description": "Personal website running on Gatsby, React, and Node.js.",
-  "version": "3.0.0",
-  "author": "Calvin Bui",
-  "repository": "git@github.com:calvinbui/calvin.me",
+  "version": "1.0.0",
+  "author": "Beerus Inc.",
+  "repository": "git@github.com:ramuskay/blog-beerus.git",
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-react": "^7.16.7",
@@ -54,9 +54,9 @@
     "markdownlint-cli2": "^0.4.0"
   },
   "keywords": [
-    "calvin bui",
-    "development",
-    "dev",
+    "beerus",
+    "devops",
+    "sysadmin",
     "tutorials",
     "tech",
     "articles",
