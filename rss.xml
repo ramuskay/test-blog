@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Beerus blog]]></title><description><![CDATA[Le blog d'un passionné de sysadmin et de Devops !]]></description><link>https://blog.beerus.fr/</link><image><url>https://blog.beerus.fr//favicon/favicon-48.png</url><title>Beerus blog</title><link>https://blog.beerus.fr/</link></image><generator>Calvin Bui</generator><lastBuildDate>Sat, 16 Jul 2022 04:27:16 GMT</lastBuildDate><atom:link href="https://blog.beerus.fr//rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Créer mon propre blog !]]></title><description><![CDATA[Je cherchais une bonne solution pour monter mon propre blog. Au début j'ai forcément réfléchis à des CMS classique tel que : Wordpress Drupal Grav etc... Mais je désirais aussi…]]></description><link>https://blog.beerus.fr/creation-du-blog</link><guid isPermaLink="false">https://blog.beerus.fr/creation-du-blog</guid><category><![CDATA[gatsby]]></category><category><![CDATA[jamstack]]></category><category><![CDATA[blog]]></category><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Je cherchais une bonne solution pour monter mon propre blog. Au début j&apos;ai forcément réfléchis à des CMS classique tel que :&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Beerus blog]]></title><description><![CDATA[Le blog d'un passionné de sysadmin et de Devops !]]></description><link>https://blog.beerus.fr/</link><image><url>https://blog.beerus.fr//favicon/favicon-48.png</url><title>Beerus blog</title><link>https://blog.beerus.fr/</link></image><generator>Calvin Bui</generator><lastBuildDate>Sat, 16 Jul 2022 05:07:30 GMT</lastBuildDate><atom:link href="https://blog.beerus.fr//rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Créer mon propre blog !]]></title><description><![CDATA[Je cherchais une bonne solution pour monter mon propre blog. Au début j'ai forcément réfléchis à des CMS classique tel que : Wordpress Drupal Grav etc... Mais je désirais aussi…]]></description><link>https://blog.beerus.fr/creation-du-blog</link><guid isPermaLink="false">https://blog.beerus.fr/creation-du-blog</guid><category><![CDATA[gatsby]]></category><category><![CDATA[jamstack]]></category><category><![CDATA[blog]]></category><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Je cherchais une bonne solution pour monter mon propre blog. Au début j&apos;ai forcément réfléchis à des CMS classique tel que :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Wordpress&lt;/li&gt;
 &lt;li&gt;Drupal&lt;/li&gt;
@@ -25,13 +25,14 @@
 &lt;ul&gt;
 &lt;li&gt;Redaction du code en local sur VS-Studio code (j&apos;ai les plugins preview markdown etc...)&lt;/li&gt;
 &lt;li&gt;Je push une fois fini sur un de mes projets github&lt;/li&gt;
-&lt;li&gt;Le push trigger un build GatsbyCloud sur lequel j&apos;aurais mon blog d&apos;hébergé&lt;/li&gt;
+&lt;li&gt;Le push trigger un build GitHub action (workflow dans le projets) qui héberge mon blog sur GitHub Pages&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Plusieurs avantages :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Mon blog est centralisé et versionné&lt;/li&gt;
+&lt;li&gt;Mon blog est centralisé et versionné (une ancienne version de ce post décrivait l&apos;ancienne façon d&apos;héberger via GatsbyCloud héhé)&lt;/li&gt;
 &lt;li&gt;Les utilisateurs peuvent collaborer sur les articles en soumettant un PR (dans les faits un simple edit du post sur GitHub)&lt;/li&gt;
 &lt;li&gt;J&apos;avais hésité à l&apos;héberger sur l&apos;infra maison mais vu que tout est déjà publique aucun problème à le faire héberger par un tiers&lt;/li&gt;
+&lt;li&gt;Tout passe par un seul hebergeur --&gt; Github&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Et quelques inconvénients:&lt;/p&gt;
 &lt;ul&gt;
