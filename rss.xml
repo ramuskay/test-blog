@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Beerus blog]]></title><description><![CDATA[Le blog d'un passionné de sysadmin et de Devops !]]></description><link>https://blog.beerus.fr/</link><image><url>https://blog.beerus.fr//favicon/favicon-48.png</url><title>Beerus blog</title><link>https://blog.beerus.fr/</link></image><generator>Calvin Bui</generator><lastBuildDate>Sat, 16 Jul 2022 05:07:30 GMT</lastBuildDate><atom:link href="https://blog.beerus.fr//rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Créer mon propre blog !]]></title><description><![CDATA[Je cherchais une bonne solution pour monter mon propre blog. Au début j'ai forcément réfléchis à des CMS classique tel que : Wordpress Drupal Grav etc... Mais je désirais aussi…]]></description><link>https://blog.beerus.fr/creation-du-blog</link><guid isPermaLink="false">https://blog.beerus.fr/creation-du-blog</guid><category><![CDATA[gatsby]]></category><category><![CDATA[jamstack]]></category><category><![CDATA[blog]]></category><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Je cherchais une bonne solution pour monter mon propre blog. Au début j&apos;ai forcément réfléchis à des CMS classique tel que :&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Beerus blog]]></title><description><![CDATA[Le blog d'un passionné de sysadmin et de Devops !]]></description><link>https://blog.beerus.fr/</link><image><url>https://blog.beerus.fr//favicon/favicon-48.png</url><title>Beerus blog</title><link>https://blog.beerus.fr/</link></image><generator>Calvin Bui</generator><lastBuildDate>Sat, 16 Jul 2022 05:17:39 GMT</lastBuildDate><atom:link href="https://blog.beerus.fr//rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Créer mon propre blog !]]></title><description><![CDATA[Je cherchais une bonne solution pour monter mon propre blog. Au début j'ai forcément réfléchis à des CMS classique tel que : Wordpress Drupal Grav etc... Mais je désirais aussi…]]></description><link>https://blog.beerus.fr/creation-du-blog</link><guid isPermaLink="false">https://blog.beerus.fr/creation-du-blog</guid><category><![CDATA[gatsby]]></category><category><![CDATA[jamstack]]></category><category><![CDATA[blog]]></category><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Je cherchais une bonne solution pour monter mon propre blog. Au début j&apos;ai forcément réfléchis à des CMS classique tel que :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Wordpress&lt;/li&gt;
 &lt;li&gt;Drupal&lt;/li&gt;
@@ -27,6 +27,39 @@
 &lt;li&gt;Je push une fois fini sur un de mes projets github&lt;/li&gt;
 &lt;li&gt;Le push trigger un build GitHub action (workflow dans le projets) qui héberge mon blog sur GitHub Pages&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 850px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dd1a8069019a549dbdb0c4805dfb3caf/ac7a9/gh-gatsby.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.33802816901409%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB2ElEQVQoz2P4DwN///79AwZ///799w8k8v3Lrzy7eSkG09NNZqabzko3nglCprPSjGdCEANE5z+Ichj49/cfWPNPmOZZ8VpTUwxnpBjOiNeemmaCpBmic/u2rcGBfsGBftu3bYUYAdVsOCNJb/qkvG1b55zdOvdcf9bWRJ2p6SYg+xn+/PkD1rklPDSovq66vq46PDRo29Yt//////Lxe4HDglj1yb0Zmy8eevDg2qs7F188uvlmSsH2OI3JGaazGP7+/fv////U5MS5c2ZBLJw/b05qcuL///+/fvqR7zA/TmPy9vnnj2+59ef3388ffrx6/PHA6qvxmlMQmvNystrbWiCaG+prsjPTwJq/FzjMj1GdtH3euU0zzuxafPHNs0/b5p9fP+VkgvbUdLjms2fPBPn7XLt6dfeunTKSomfPnIZozrefH6c5pSF89cE1V3cvvnh8y83z++43hK0Cedt0FiLAzp8/++Tx49u3bp06eQI5wFINZyTqTqsNWrFm4vE1E45X+y9P1IUFGNaogjgHojnZYHq66axEnWlxGpPjNCYn6k6D6ERohmv49+/f379//qMmkjSTmekms0DpxHQWXCeKZpREAtNc5Lwww3RWtuWcLAssCAAlTMWd+RmHeQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gh gatsby&quot;
+        title=&quot;gh gatsby&quot;
+        src=&quot;/static/dd1a8069019a549dbdb0c4805dfb3caf/d6170/gh-gatsby.png&quot;
+        srcset=&quot;/static/dd1a8069019a549dbdb0c4805dfb3caf/53f68/gh-gatsby.png 213w,
+/static/dd1a8069019a549dbdb0c4805dfb3caf/df70d/gh-gatsby.png 425w,
+/static/dd1a8069019a549dbdb0c4805dfb3caf/d6170/gh-gatsby.png 850w,
+/static/dd1a8069019a549dbdb0c4805dfb3caf/12c14/gh-gatsby.png 1275w,
+/static/dd1a8069019a549dbdb0c4805dfb3caf/de891/gh-gatsby.png 1700w,
+/static/dd1a8069019a549dbdb0c4805dfb3caf/ac7a9/gh-gatsby.png 1920w&quot;
+        sizes=&quot;(max-width: 850px) 100vw, 850px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Plusieurs avantages :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mon blog est centralisé et versionné (une ancienne version de ce post décrivait l&apos;ancienne façon d&apos;héberger via GatsbyCloud héhé)&lt;/li&gt;
