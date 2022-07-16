@@ -1,19 +1,20 @@
 import React, {Component} from "react";
 import ThemeContext from '../context/ThemeContext';
+
 export default class Comments extends Component {
   static contextType = ThemeContext;
 
   constructor(props){ 
     super(props);
     this.commentBox = React.createRef(); // Creates a reference to inject the <script> element
-    this.theme = this.context;
   }
+  
   componentDidMount () {
       const toggleDark = document.body.classList.contains("dark"); 
       
       console.log(this.context)
       const utteranceTheme = toggleDark ? "github-dark" : "github-light";
-      let scriptEl = document.createElement("script");
+      const scriptEl = document.createElement("script");
       scriptEl.setAttribute("src", "https://utteranc.es/client.js");
       scriptEl.setAttribute("crossorigin","anonymous");
       scriptEl.setAttribute("async", true);
