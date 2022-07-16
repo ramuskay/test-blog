@@ -40,10 +40,6 @@ J'ai donc choisi les paramètres suivants :
 
 ![](./gh-gatsby.png)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 688fe80... add image
 Plusieurs avantages :
 - Mon blog est centralisé et versionné (une ancienne version de ce post décrivait l'ancienne façon d'héberger via GatsbyCloud héhé)
 - Les utilisateurs peuvent collaborer sur les articles en soumettant un PR (dans les faits un simple edit du post sur GitHub)
