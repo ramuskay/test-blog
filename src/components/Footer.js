@@ -19,4 +19,4 @@ export default class Footer extends Component {
     )
   }
 }
-/*<a href="https://umami.calvin.me/share/AkrFoOXj/calvin.me" target="_blank" rel="noopener noreferrer">Analytics</a>*/
+/* <a href="https://umami.calvin.me/share/AkrFoOXj/calvin.me" target="_blank" rel="noopener noreferrer">Analytics</a> */
